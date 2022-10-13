@@ -5,17 +5,17 @@
 This repository contains a base docker image that I use for creating other
 docker images.
 
-- 🧱 Based on [Debian (slim)](https://hub.docker.com/_/debian)
-- 👮 Sets up [S6 overlay](https://github.com/just-containers/s6-overlay) as the
+- 🧱 Based on [Debian Bullseye (slim)](https://hub.docker.com/_/debian)
+- 👮 Sets up [s6-overlay](https://github.com/just-containers/s6-overlay) as the
   process supervisor
 - 🎨 Sets default environment variables to match my preferences
 
 ## Usage
 
-To create a custom image that builds on top of this base image, extend from `hedger/base`.
+To create a custom image that builds on top of this base image, extend from `nhedger/base`.
 
 ```dockerfile
-FROM hedger/base
+FROM nhedger/base
 ```
 
 Refer to the official [documentation of s6-overlay](https://github.com/just-containers/s6-overlay#usage) for instructions about creating services.
@@ -27,7 +27,7 @@ This base image is automatically built and released using GitHub Actions.
 To build the image locally, run the following script.
 
 ```bash
-docker build -t hedger/base .
+docker build -t nhedger/base .
 ```
 
 ## License
