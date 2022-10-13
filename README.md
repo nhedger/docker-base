@@ -1,6 +1,6 @@
 # Base Docker Image
 
-![build](https://github.com/nhedger/docker/actions/workflows/main.yaml/badge.svg?branch=main)
+![build](https://github.com/nhedger/docker/actions/workflows/build.yaml/badge.svg?branch=main)
 
 This repository contains a base docker image that I use for creating other
 docker images.
