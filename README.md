@@ -35,7 +35,7 @@ docker build -t hedger/base .
 This project is licensed under the [GNU General Public License v3.0](./LICENSE).
 
 ```
-SpiceDB extension for VS Code
+Docker Base Image
 
 Copyright (C) 2022  Nicolas Hedger <nicolas@hedger.ch>
 
